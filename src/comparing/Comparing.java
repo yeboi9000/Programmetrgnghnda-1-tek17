@@ -3,7 +3,7 @@ package comparing;
 public class Comparing {
 
 	public static void main(String[] args) {
-		String romanNumber = "XXVVVVVIIIIIIILLL";
+		String romanNumber = "XXXXVVVVVIIIIIIILLLLLLLLL";
 		int number = 0;
 		
 	    for (int index = 0; index <romanNumber.length(); index++ ) {
@@ -23,7 +23,7 @@ public class Comparing {
 	 		
 	    }
 		System.out.println(number); 
-
+        
 	    }
 
 	}
