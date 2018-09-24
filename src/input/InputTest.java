@@ -7,7 +7,7 @@ public class InputTest {
 	public static void main(String[] args) {
 		Scanner inputScanner = new Scanner(System.in); 
          
-		System.out.print("Enter text: ");
+		System.out.print("Enter name: ");
          
           inputScanner.nextLine();
           
@@ -32,8 +32,8 @@ public class InputTest {
          
           System.out.println("Enter your weight: ");
           double weight = inputScanner.nextDouble();
-          if (weight > 400) {
-          System.out.println("fatty"); 
+          if (weight > 100) {
+          System.out.println("fattyboi"); 
           } else if(weight < 50) {
         	  System.out.println("Skinnyboi");
           }
