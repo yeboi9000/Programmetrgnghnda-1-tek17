@@ -5,7 +5,7 @@ public class Trialss {
 	public static void main(String[] args) {
 		System.out.println();
 		Scanner in = new Scanner(System.in);
-        System.out.print("Input a float number: 12.34 ");
+        System.out.print(" 12.24f ");
         float  x = in.nextFloat();  
         System.out.printf("The absolute value of %.2f is: %.2f",x, convert(x));
 		System.out.printf("\n");
