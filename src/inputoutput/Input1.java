@@ -1,7 +1,8 @@
 package inputoutput;
 
+package comparing;
 import java.util.Scanner;
-public class Input1 {
+public class InputOutput {
 	static int x = 25;
     static int y = 5;
 	public static void main(String[] args) {
