@@ -23,3 +23,4 @@ public class Uppgiftnumero6 {
 	}
 
 }
+// gjorde en liknande inna så kunde det mesta i denna

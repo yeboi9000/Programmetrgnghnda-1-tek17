@@ -25,7 +25,7 @@ public class Uppgiftnumero4 {
 	        return count;
 	    }
 	
-
+// tog hjälp på denna också vid vissa delar typ vowels osv
 	}
 
 

@@ -7,7 +7,7 @@ public class Uppgiftnumero5 {
 	        System.out.print("Input string: ");
 	        String str = in.nextLine();
 
-	        System.out.print("Number of words in the string: " + count_Words(str)+"\n");
+	        System.out.print("antal ord: " + count_Words(str)+"\n");
 	    }
 
 	 public static int count_Words(String str)
@@ -27,3 +27,4 @@ public class Uppgiftnumero5 {
 	        return count; 
 	    }
 	 }
+// lite hjälp här också av internet

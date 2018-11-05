@@ -28,7 +28,7 @@ public class Uppgiftnumero3 {
 		        return str.substring(position, position + length);
 		    }
 		
-
+// tog hjälp av internet på denna vid vissa delar
 	
 
 }
