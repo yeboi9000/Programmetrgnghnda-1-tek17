@@ -1,7 +1,7 @@
 package variabler;
 import java.util.*;
 public class Trialss {
-
+  // den här fungerar inte som de ska.
 	public static void main(String[] args) {
 		System.out.println();
 		Scanner in = new Scanner(System.in);

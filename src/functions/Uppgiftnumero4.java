@@ -3,16 +3,16 @@ package functions;
 import java.util.Scanner;
 
 public class Uppgiftnumero4 {
-
+ // här skriver man in ett ord 
 	public static void main(String[] args) {
 		  Scanner in = new Scanner(System.in);
-	        System.out.print("Input the string: ");
+	        System.out.print("Input string: ");
 	        String str = in.nextLine();
 
-	        System.out.print("Number of  Vowels in the string: " + count_Vowels(str)+"\n");
+	        System.out.print("nummer av vokalen i string: " + count_Vowels(str)+"\n");
 	    }
 	 public static int count_Vowels(String str)
-	    {
+	    {   // här räknar den vilka vokaler som finns i ordet som man ser nere i if satsen med str.charAt
 	        int count = 0;
 	        for (int i = 0; i < str.length(); i++)
 	        {

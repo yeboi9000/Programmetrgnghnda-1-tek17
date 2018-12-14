@@ -6,4 +6,5 @@
  *
  */
 module programmering1 {
+	requires java.desktop;
 }

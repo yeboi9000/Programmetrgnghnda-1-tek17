@@ -9,7 +9,7 @@ public class Uppgift1metoder {
 		largestAmongThree(input());
 
 	}
-
+         //här skriver man 3 nummer 
 	public static int[] inputs() {
 		Scanner scanner = new Scanner(System.in);
 		int[] inputs = new int[3];
@@ -21,7 +21,7 @@ public class Uppgift1metoder {
 		inputs[2] = scanner.nextInt();
 		return inputs;
 	}
-
+           //här kollar den vilket nummer som är störst
 	public static void largestAmongThree(int[] inputs) {
 		int tempvar;
 		if (inputs[0] > inputs[1]) {
@@ -42,7 +42,7 @@ public class Uppgift1metoder {
 		smallestAmongThree(input());
 
 	}
-
+        //här skriver man 3 nummer igen
 	public static int[] input() {
 		Scanner scanner = new Scanner(System.in);
 		int[] input = new int[3];
@@ -54,7 +54,7 @@ public class Uppgift1metoder {
 		input[2] = scanner.nextInt();
 		return input;
 	}
-
+               //här kollar den vilken som är minst av dom 3 
 	public static void smallestAmongThree(int[] input) {
 		int tempvar;
 		if (input[0] < input[1]) {

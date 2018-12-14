@@ -3,7 +3,7 @@ package variabler;
 public class DoubleNumber {
 
 	public static void main(String[] args) {
-		double doubleNumber = 10.5;
+		double doubleNumber = 10;
 				int integerNumber = 10;
 				
 				

@@ -6,9 +6,9 @@ public class Uppgiftnumero6 {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.print("Input an integer: ");
+		System.out.print("Input integer: ");
 		int digits = in.nextInt();
-		System.out.println("The sum is " + sumDigits(digits));
+		System.out.println("summa är " + sumDigits(digits));
 	}
 
 	public static int sumDigits(long n) {
@@ -23,4 +23,4 @@ public class Uppgiftnumero6 {
 	}
 
 }
-// gjorde en liknande inna så kunde det mesta i denna
+// fick info om denna på stackoverflow fattar inte riktigt hur denna fungerar men den fungerade engligt deras info

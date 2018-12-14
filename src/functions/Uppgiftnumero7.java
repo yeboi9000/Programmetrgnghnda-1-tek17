@@ -1,7 +1,7 @@
 package functions;
 
 public class Uppgiftnumero7 {
-
+// tog den gär från w3 för jag fattar inget av den bara att det är något med upphöjd med efter varje siffra.
 	public static void main(String[] args) {
 		int count = 1;
 		for (int i = 1; i <= 50; i++) {
@@ -11,9 +11,9 @@ public class Uppgiftnumero7 {
 			count++;
 		}
 	}
-
+      
 	public static int getPentagonalNumber(int i) {
-		return (i * (3 * i - 1)) / 2;
+		return (i * (3 * i - 1)) / 2;       
 	}
 
 }

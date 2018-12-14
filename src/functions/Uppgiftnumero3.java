@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class Uppgiftnumero3 {
 
 	public static void main(String[] args) {
-		
+		      // här skriver man in något ord 
 		        Scanner in = new Scanner(System.in);
-		        System.out.print("Input a string: ");
+		        System.out.print("Input string: ");
 		        String str = in.nextLine();
-		        System.out.print("The middle character in the string: " + middle(str)+"\n");
+		        System.out.print(" input mellan bokstäverna: " + middle(str)+"\n");
 		    }
 		 public static String middle(String str)
-		    {
+		    {     // den här delen tog jag hjälp av internet för att få den att fungera förstår inte riktigt vad som händer här
 		        int position;
 		        int length;
 		        if (str.length() % 2 == 0)

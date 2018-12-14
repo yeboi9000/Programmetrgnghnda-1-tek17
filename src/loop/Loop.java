@@ -16,7 +16,7 @@ public class Loop {
    
    
    
-    boolean alive;
+    boolean alive = false;
 	if (alive == false);
     for(int i = 1000; i <= 800; i--) {
    boolean gameOn = true;

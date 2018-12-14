@@ -1,7 +1,7 @@
 package functions;
 import java.util.Scanner;
 public class Uppgiftnumero5 {
-
+     // här skriver man in ord eller vad som helst
 	public static void main(String[] args) {
 		  Scanner in = new Scanner(System.in);
 	        System.out.print("Input string: ");
@@ -9,7 +9,7 @@ public class Uppgiftnumero5 {
 
 	        System.out.print("antal ord: " + count_Words(str)+"\n");
 	    }
-
+      //här så räknar den hur många ord som finns med, fast den räknar basically bara hur många mellanslag de finns med för den funkar inte om man skriver ord utan space
 	 public static int count_Words(String str)
 	    {
 	       int count = 0;
